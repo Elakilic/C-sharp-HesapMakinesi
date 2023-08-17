@@ -13,3 +13,21 @@ Console.WriteLine("Bölme İşlemi İçin: /");
 
 Console.WriteLine("İşlem seçin: + , - , * , /");
 string? islem =Console.ReadLine();
+
+double sonuc= 0;
+
+if( islem == "+"){
+    sonuc = sayi1 + sayi2;
+    Console.WriteLine("Sonuç: " + sonuc);
+}else if(islem == "-"){
+    sonuc = sayi1 - sayi2;
+    Console.WriteLine("Sonuç: " + sonuc);
+}else if(islem == "*"){
+    sonuc = sayi1 * sayi2;
+    Console.WriteLine("Sonuç: " + sonuc);
+}else if(islem == "/"){
+    sonuc = sayi1 / sayi2;
+    Console.WriteLine("Sonuç: " + sonuc);
+}else{
+    Console.WriteLine("Hatalı giriş yaptınız.");
+}

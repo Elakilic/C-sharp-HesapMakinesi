@@ -28,4 +28,6 @@ if( islem == "+"){
 }else if(islem == "/"){
     sonuc = sayi1 / sayi2;
     Console.WriteLine("Sonuç: " + sonuc);
+}else{
+    Console.WriteLine("Hatalı giriş yaptınız.");
 }

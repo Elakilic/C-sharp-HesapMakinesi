@@ -19,4 +19,7 @@ double sonuc= 0;
 if( islem == "+"){
     sonuc = sayi1 + sayi2;
     Console.WriteLine("Sonuç: " + sonuc);
+}else if(islem == "-"){
+    sonuc = sayi1 - sayi2;
+    Console.WriteLine("Sonuç: " + sonuc);
 }
